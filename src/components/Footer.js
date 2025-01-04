@@ -1,29 +1,25 @@
 import React from "react";
 import { FiArrowRight } from "react-icons/fi"; // Importing arrow icon
 
-
 const Footer = () => {
   return (
     <footer className="bg-[#060608] text-white ">
-      <div className="max-w-screen-xl mx-auto py-12 px-5" >
+      <div className="max-w-screen-xl mx-auto py-12 px-5">
         {/* Top Section */}
         <div className="flex flex-wrap flex-col md:flex-row justify-between items-center border-b border-gray-700 pb-6">
           {/* Social Links */}
           <div className="flex flex-wrap md:space-x-6 gap-4 text-gray-400 text-sm font-medium">
             <a href="#" className="hover:text-white text-lg   ">
-              Behance
+              Github
             </a>
             <a href="#" className="hover:text-white text-lg  ">
               Linkedin
             </a>
-            <a  href="#" className="hover:text-white text-lg ">
+            <a href="#" className="hover:text-white text-lg ">
               Email
             </a>
             <a href="#" className="hover:text-white text-lg ">
               X
-            </a>
-            <a href="#" className="hover:text-white text-lg ">
-              Dribbble
             </a>
           </div>
 
@@ -45,12 +41,12 @@ const Footer = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-0.5 bg-white"></div>
-            <span className="text-lg font-semibold">BADEJO</span>
+            <span className="text-lg font-semibold">ISAAC</span>
           </div>
 
           {/* Copyright */}
           <div className="mt-4 md:mt-0 text-center md:text-right">
-            <span>© Peace Badejo 2024</span>
+            <span>© Isaac Olowookere 2024</span>
           </div>
         </div>
       </div>
