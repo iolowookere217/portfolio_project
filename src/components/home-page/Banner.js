@@ -1,7 +1,6 @@
 import React from "react";
 import BannerIcon from "./BannerIcon";
-import Link from "next/link";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import Image from "next/image";
 
 const Banner = () => {
   return (
@@ -9,15 +8,15 @@ const Banner = () => {
       <div className=" text-white min-h-screen  flex flex-col justify-center items-start py-16 md:py-36">
         <div className="grid grid-cols-2 md:flex items-center md:justify-between w-full">
           <div className="flex py-8 items-center justify-between gap-4">
-            <Avatar className="flex-shrink-0 size-32">
-              <AvatarImage
-                src={
-                  "https://drive.google.com/file/d/17D99KBKBnh8wagjP38ct_KfA_ulYqrwH/view?usp=sharing"
-                }
+            <div className="flex-shrink-0 size-32">
+              <Image
+                className="rounded-full"
+                width={180}
+                height={180}
+                src={"/assets/img/isaac.png"}
                 alt={"profile picture"}
               />
-              <AvatarFallback>{"CN"}</AvatarFallback>
-            </Avatar>
+            </div>
           </div>
           <div className="flex flex-wrap md:space-x-6 gap-4 text-gray-400 text-sm font-medium">
             <a
