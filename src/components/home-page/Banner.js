@@ -11,7 +11,9 @@ const Banner = () => {
           <div className="flex py-8 items-center justify-between gap-4">
             <Avatar className="flex-shrink-0 size-32">
               <AvatarImage
-                src={"/assets/img/isaac.png"}
+                src={
+                  "https://drive.google.com/file/d/17D99KBKBnh8wagjP38ct_KfA_ulYqrwH/view?usp=sharing"
+                }
                 alt={"profile picture"}
               />
               <AvatarFallback>{"CN"}</AvatarFallback>
