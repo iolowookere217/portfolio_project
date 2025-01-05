@@ -27,7 +27,7 @@ const ProjectCard = ({ imgSrc, title, description }) => {
           height={600}
           src={imgSrc}
           alt={title}
-          className="w-full h-[300px] md:h-[500px] object-cover rounded-[30px] md:rounded-[100px] shadow-md"
+          className="w-full h-[300px] md:h-[500px] object-cover rounded-[30px] md:rounded-[50px] shadow-md"
         />
 
         {/* Card Content */}
@@ -45,7 +45,7 @@ const ProjectCard = ({ imgSrc, title, description }) => {
       </div>
 
       {/* Hover Effect */}
-      <div className="absolute inset-0 bg-black bg-opacity-20 rounded-[30px] md:rounded-[100px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+      <div className="absolute inset-0 bg-black bg-opacity-20 rounded-[30px] md:rounded-[50px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
         {/* Moving Circle */}
         <div
           className="absolute w-32 h-32 bg-white/90 text-black flex items-center justify-center rounded-full shadow-lg transition-transform duration-150 cursor-pointer"

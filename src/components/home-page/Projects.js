@@ -12,20 +12,20 @@ const CaseStudy = () => {
     {
       imgSrc: "/assets/img/dotmed.png",
       title: "Dotmed",
-      description: "Hospital Management app",
+      description: "Hospital Management App",
       url: "https://dot-med.co.uk/",
     },
     {
       imgSrc: "/assets/img/dotedu.png",
       title: "dotedu",
-      description: "School Management app",
+      description: "School Management App",
       url: "https://dotedu.co.uk/",
     },
     {
       imgSrc: "/assets/img/quiz.jpg",
       title: "Quiz App",
       description: "Question and Answer Management App",
-      url: "https://dot-food.co.uk/",
+      url: "https://quiz-app-khaki-delta.vercel.app",
     },
   ];
 

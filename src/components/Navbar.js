@@ -42,6 +42,11 @@ const Navbar = () => {
           <a href="#" className="hover:underline hover:text-gray-400">
             About Me
           </a>
+          <a
+            href="https://drive.google.com/file/d/16kLR7tAPk15fqZ2RP6ls69TPak76_M9X/view?usp=sharing"
+            className="hover:underline hover:text-gray-400">
+            Resume
+          </a>
         </div>
         {/* Contact */}
         <div className="hidden md:flex relative items-center justify-end">
@@ -90,7 +95,7 @@ const Navbar = () => {
             About Me
           </Link>
           <Link
-            href="#"
+            href="https://drive.google.com/file/d/16kLR7tAPk15fqZ2RP6ls69TPak76_M9X/view?usp=drive_link"
             className="block hover:underline hover:text-gray-400"
             onClick={toggleDrawer}>
             Resume

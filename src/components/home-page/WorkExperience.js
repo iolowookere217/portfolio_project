@@ -2,12 +2,6 @@ import React from "react";
 import WorkExperienceItem from "./WorkExperienceItem";
 const experiences = [
   {
-    date: "JULY, 2023 - PRESENT",
-    title: "Frontend Engineer",
-    company: "Dotwaju",
-    description: `Developed the User Interface for responsive mobile and web applications in various sectors including food delivery, fintech, health and school management`,
-  },
-  {
     date: "JANUARY, 2023 - JUNE, 2023",
     title: "Frontend Engineer",
     company: "TechStars Community",
@@ -15,10 +9,23 @@ const experiences = [
 "bookslab", an open-source project focused on online library management`,
   },
   {
+    date: "JULY, 2023 - PRESENT",
+    title: "Frontend Engineer",
+    company: "Dotwaju",
+    description: `Developed the User Interface for responsive mobile and web applications in various sectors including food delivery, fintech, health and school management`,
+  },
+
+  {
     date: "MARCH, 2024 - MAY, 2024",
     title: "Technical Support Engineer",
     company: "Alx",
-    description: `Reshaped the platform's user experience, making blockchain technology more accessible. My visionary approach and financial acumen converged seamlessly, creating intuitive interfaces for newcomers and advanced features for seasoned traders. By introducing intuitive interfaces and advanced features, I successfully contributed to making Coinbase more user-friendly, resulting in a 20% rise in overall customer satisfaction.`,
+    description: `Attended inquiries and resolved technical problems clients were having. Promptly attended to customer requests to exceed KPIs and ensured that customers receive exemplary customer service during all contact points with the company. Utilized interpersonal communication skills when engaging with customers.`,
+  },
+  {
+    date: "JANUARY, 2024 - PRESENT",
+    title: "Tech Facilitator",
+    company: "Self Employed",
+    description: `Explained complex concept in Devops, cloud services (AWS) and software programs (Python, C, Javascript) to a group of students. Mentored a group of learners and helped them to debug errors in their codebase. Implemented improvements based on feedback to enhance the student experience.`,
   },
 ];
 

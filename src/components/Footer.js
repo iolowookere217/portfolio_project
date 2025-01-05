@@ -9,16 +9,24 @@ const Footer = () => {
         <div className="flex flex-wrap flex-col md:flex-row justify-between items-center border-b border-gray-700 pb-6">
           {/* Social Links */}
           <div className="flex flex-wrap md:space-x-6 gap-4 text-gray-400 text-sm font-medium">
-            <a href="#" className="hover:text-white text-lg   ">
+            <a
+              href="https://github.com/iolowookere217"
+              className="hover:text-white text-lg   ">
               Github
             </a>
-            <a href="#" className="hover:text-white text-lg  ">
+            <a
+              href="https://www.linkedin.com/in/isaac-olowookere"
+              className="hover:text-white text-lg  ">
               Linkedin
             </a>
-            <a href="#" className="hover:text-white text-lg ">
+            <a
+              href="mailto:olowookere.isaaco@gmail.com"
+              className="hover:text-white text-lg ">
               Email
             </a>
-            <a href="#" className="hover:text-white text-lg ">
+            <a
+              href="https://x.com/isaaco_olowo"
+              className="hover:text-white text-lg ">
               X
             </a>
           </div>
